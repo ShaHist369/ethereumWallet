@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "bootstrap": "^4.3.1",
+    "ethereumjs-tx": "^2.1.2",
+    "keythereum": "^1.2.0",
+    "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "web3": "^1.0.0-beta.46"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,21 +19,12 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
